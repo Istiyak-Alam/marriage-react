@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#ring{
+  
+  transform: rotate(10deg);
+}
+#ring:hover{
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out;
+}
+
+
+#prewed{
+  
+  transform: rotate(-10deg);
+}
+#prewed:hover{
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out;
+}
+
+#haldi{
+  
+  transform: rotate(10deg);
+}
+#haldi:hover{
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out;
+}
+#wed{
+  transform: rotate(-10deg);
+}
+#wed:hover{
+  transform: rotate(0deg);
+  transition: all 1s ease-in-out;
+}
+
+#topring:hover{
+  transform: scale(1.05,1.05);
+  transition: all 2s;
+}
